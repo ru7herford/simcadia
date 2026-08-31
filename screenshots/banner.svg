@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title description">
+  <title id="title">simCadia</title>
+  <desc id="description">Review faster. Explore deeper.</desc>
+  <rect width="1280" height="320" rx="28" fill="#f7f9fa"/>
+  <rect x="1" y="1" width="1278" height="318" rx="27" fill="none" stroke="#d6dde2" stroke-width="2"/>
+  <svg x="72" y="56" width="208" height="208" viewBox="0 0 512 512" aria-hidden="true">
+    <rect x="12" y="12" width="488" height="488" rx="112" fill="#fbfcfc"/>
+    <rect x="12" y="12" width="488" height="488" rx="112" fill="none" stroke="#d6dde2" stroke-width="4"/>
+    <defs>
+      <path id="outer" d="M118 156 254 76 254 165 208 195 118 246Z"/>
+      <path id="cap" d="M254 76 396 155 327 202 254 165Z"/>
+      <path id="inner" d="M118 246 208 195 208 292Z"/>
+    </defs>
+    <use href="#outer" fill="#294756"/>
+    <use href="#cap" fill="#172a37"/>
+    <use href="#inner" fill="#1f3d4d"/>
+    <g transform="rotate(180 256 256)">
+      <use href="#outer" fill="#df470e"/>
+      <use href="#cap" fill="#bd291c"/>
+      <use href="#inner" fill="#bcc4c9"/>
+    </g>
+  </svg>
+  <text x="332" y="145" fill="#172a37" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="76" font-weight="700">simCadia</text>
+  <text x="336" y="204" fill="#294756" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="34" font-weight="600">Review faster. Explore deeper.</text>
+  <rect x="336" y="232" width="92" height="5" rx="2.5" fill="#df470e"/>
+</svg>

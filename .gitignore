@@ -1,0 +1,7 @@
+# Track only the public release presentation.
+*
+
+!.gitignore
+!README.md
+!screenshots/
+!screenshots/**
