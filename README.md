@@ -1,22 +1,47 @@
 ![simCadia — Review faster. Explore deeper.](screenshots/banner.svg)
 
-simCadia turns simulation evidence into engineering insight. Understand how
-Cases were built, explore how they behaved, compare the results, and carry what
-you learn into the next simulation.
+**simCadia 0.5: From extracted results to complete simulation context.**
 
-OpenFOAM, SU2, and Ansys Fluent come together in one engineering workflow while
-retaining the terminology and evidence that make each simulation meaningful.
-Your simulation data stays private and on your machine.
+Open complete OpenFOAM and SU2 source files inside simCadia, understand supported
+settings directly beside the original text, and stay synchronized after external
+edits.
 
-## Download simCadia 0.4
+OpenFOAM, SU2, and Ansys Fluent come together in one private, local engineering
+workflow that keeps extracted insight connected to its source evidence.
+
+## Download simCadia 0.5
 
 | Platform       | Download                                                                                                                             | Start                                        |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------- |
-| Windows 11 x64 | [`simCadia-0.4.0-win-x64.zip`](https://github.com/ru7herford/simcadia/releases/latest/download/simCadia-0.4.0-win-x64.zip)           | Extract the ZIP and run `simCadia.exe`.      |
-| Linux x86-64   | [`simCadia-0.4.0-linux-x86_64.zip`](https://github.com/ru7herford/simcadia/releases/latest/download/simCadia-0.4.0-linux-x86_64.zip) | Extract the ZIP and run `./run-simcadia.sh`. |
+| Windows 11 x64 | [`simCadia-0.5.0-win-x64.zip`](https://github.com/ru7herford/simcadia/releases/latest/download/simCadia-0.5.0-win-x64.zip)           | Extract the ZIP and run `simCadia.exe`.      |
+| Linux x86-64   | [`simCadia-0.5.0-linux-x86_64.zip`](https://github.com/ru7herford/simcadia/releases/latest/download/simCadia-0.5.0-linux-x86_64.zip) | Extract the ZIP and run `./run-simcadia.sh`. |
 
 Each download includes a 64-Case SampleProject spanning OpenFOAM, SU2, and
 Fluent, ready to explore from the first launch.
+
+## See the complete source in context
+
+Open complete OpenFOAM and SU2 text files without losing comments, formatting,
+or native terminology. Find text, jump to a line, open the same verified file in
+an external editor, and inspect supported settings directly beside the source.
+
+![Complete OpenFOAM source with contextual engineering information](screenshots/source-view.png)
+
+## Keep every Case connected to its files
+
+Move through setup, physics, mesh, boundaries, numerics, run evidence, outputs,
+and History using the native files that supplied the evidence. Saving a file in
+an external editor triggers an automatic rescan and reloads the selected source
+when it is still available.
+
+![A Case organized around authored and recorded source files](screenshots/case-sources.png)
+
+## Inspect recorded History when you need it
+
+Choose the series to plot, inspect exact values, page through long histories,
+and move from recorded behavior back to the Case and source that produced it.
+
+![Recorded Case History with selectable series](screenshots/case-history.png)
 
 ## See the whole campaign
 
@@ -32,13 +57,6 @@ solver, run state, recorded information, Group, or label.
 
 ![OpenFOAM, SU2, and Fluent Cases](screenshots/cases.png)
 
-## Explore every Case
-
-Bring setup, physics, mesh, boundaries, numerics, run evidence, outputs, and
-History into one connected view with a clear path back to the source.
-
-![Recorded engineering evidence inside a Case](screenshots/case-details.png)
-
 ## Compare simulations directly
 
 See matching, differing, and unique evidence side by side while preserving the
@@ -51,7 +69,7 @@ language and structure of each solver.
 Explore recorded values across many Cases, inspect their histories, and move
 between campaign-level patterns and the simulations behind them.
 
-![Campaign analysis with recorded History](screenshots/analyze.png)
+![Campaign analysis with recorded History](screenshots/analyze-history.png)
 
 ## Review recorded runs
 
